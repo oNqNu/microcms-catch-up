@@ -61,14 +61,6 @@ export default function Article({ data }: Props) {
         }}
       />
       <Profile writer={data.writer} />
-      <h2
-        style={{
-          color: 'white',
-          backgroundColor: 'black',
-        }}
-      >
-        Hello
-      </h2>
     </main>
   );
 }
